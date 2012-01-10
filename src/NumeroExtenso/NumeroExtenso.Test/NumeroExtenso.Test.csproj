@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>089e46b7-a8b9-4d84-8571-b1a95e253779</ProjectGuid>
+    <ProjectGuid>{B66FDAAB-1099-41CF-A431-59B181C63877}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NumeroExtenso.Test</RootNamespace>
