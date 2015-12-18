@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace NumeroExtenso
@@ -48,9 +46,9 @@ namespace NumeroExtenso
 
 
         string[] unidades = new string[] 
-            { "zero", "um", "dois", "tres", "quatro", "cinco", "seis", "sete", "oito", "nove" ,
+            { "zero", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove" ,
             "dez", "onze", "doze", "treze", "quatorze", "quinze", "desesseis", 
-            "dezesete", "dezoito", "dezenove" };
+            "dezessete", "dezoito", "dezenove" };
 
         string[] dezenas = new string[] 
         { "cem", "dez", "vinte", "trinta", "quarenta", 
@@ -58,7 +56,7 @@ namespace NumeroExtenso
 
         string[] centenas = new string[] 
         { "zero", "cento", "duzentos", "trezentos", "quatrocentos", "quinhentos", 
-            "seiscentos", "setesenteso", "oitocentos", "novecentos" };
+            "seiscentos", "setecentos", "oitocentos", "novecentos" };
 
         /// <summary>
         /// Cria um número que será passado para extenso
@@ -84,8 +82,8 @@ namespace NumeroExtenso
         private string ToExtenso()
         {
             string moneyNameSingular = Resources.moneyNameSingular;
-            string moneyNamePlural = Resources.moneyNamePlural;
-            string centsNamePlural = Resources.centsNamePlural;
+            string moneyNamePlural   = Resources.moneyNamePlural;
+            string centsNamePlural   = Resources.centsNamePlural;
             string centsNameSingular = Resources.centsNameSingular;
 
             extensoBilhao();
